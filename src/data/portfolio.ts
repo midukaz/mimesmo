@@ -33,7 +33,7 @@ export const portfolio = {
       tags: ['Laravel', 'JavaScript', 'Tailwind CSS', 'MySQL'],
       url: 'https://demo-tarefacil.netlify.app/',
     },
-  ] satisfies ProjectMeta[],
+  ] as ProjectMeta[],
   socials: [
     { key: 'github', url: 'https://github.com', icon: 'code' },
     { key: 'linkedin', url: 'https://linkedin.com', icon: 'work' },
