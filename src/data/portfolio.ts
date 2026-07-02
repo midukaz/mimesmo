@@ -35,6 +35,7 @@ export const portfolio = {
     'Docker',
     'Git',
     'GitHub',
+    'Bun'
   ],
   projects: [
     {
