@@ -22,10 +22,19 @@ export const portfolio = {
   skills: [
     'Laravel',
     'JavaScript',
+    'TypeScript',
     'MySQL',
     'PostgreSQL',
     'Node.js',
     'Tailwind CSS',
+    'Vue.js',
+    'React.js',
+    'Vite',
+    'Webpack',
+    'Quasar',
+    'Docker',
+    'Git',
+    'GitHub',
   ],
   projects: [
     {
@@ -35,8 +44,8 @@ export const portfolio = {
     },
   ] as ProjectMeta[],
   socials: [
-    { key: 'github', url: 'https://github.com', icon: 'code' },
-    { key: 'linkedin', url: 'https://linkedin.com', icon: 'work' },
+    { key: 'github', url: 'https://github.com/midukaz', icon: 'code' },
+    { key: 'linkedin', url: 'https://www.linkedin.com/in/paulo-barreto-bbbb621a8/', icon: 'work' },
     { key: 'email', url: 'mailto:pm10023080@gmail.com', icon: 'email' },
   ] satisfies SocialMeta[],
 }
