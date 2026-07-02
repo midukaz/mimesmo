@@ -64,11 +64,12 @@ const fr: LocaleMessages = {
     origin: 'Originaire du Cap-Vert',
     residence: 'J\'habite au Brésil',
     languages: 'Portugais (courant) · Anglais (notions)',
+    education: 'Diplômé en Analyse et Développement de Systèmes — Estácio',
     age: '{age} ans',
     experience: '{years} ans dans le domaine',
     bio: 'Développeur cap-verdien de 25 ans, vivant au Brésil, avec 4 ans d\'expérience dans la création de solutions web modernes.',
     about:
-      'Je suis Paulo Ricardo, originaire du Cap-Vert et j\'habite actuellement au Brésil. J\'ai 4 ans d\'expérience dans la technologie, je parle couramment le portugais et j\'ai des notions d\'anglais. Je travaille avec Laravel, JavaScript, Node.js et des bases de données comme MySQL et PostgreSQL, en visant toujours à livrer du code propre et des solutions qui résolvent de vrais problèmes.',
+      'Je suis Paulo Ricardo, originaire du Cap-Vert et j\'habite actuellement au Brésil. Je suis diplômé en Analyse et Développement de Systèmes par Estácio, avec 4 ans d\'expérience dans la technologie. Je parle couramment le portugais et j\'ai des notions d\'anglais. Je travaille avec Laravel, JavaScript, Node.js et des bases de données comme MySQL et PostgreSQL, en visant toujours à livrer du code propre et des solutions qui résolvent de vrais problèmes.',
   },
   language: {
     label: 'Langue',

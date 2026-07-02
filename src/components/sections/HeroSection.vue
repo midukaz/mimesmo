@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { portfolio } from '../../data/portfolio'
+import heroPhoto from '../../assets/img.png'
 
 defineEmits<{ (event: 'contact'): void }>()
 
@@ -8,7 +9,12 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section id="inicio" class="hero-section q-pa-xl">
+  <section
+    id="inicio"
+    class="hero-section q-pa-xl"
+    :style="{ backgroundImage: `url(${heroPhoto})` }"
+  >
+    <div class="hero-overlay" />
     <div class="hero-content">
       <p class="text-secondary text-subtitle1 text-weight-medium q-mb-sm">
         {{ t('hero.greeting') }}
@@ -49,15 +55,35 @@ const { t } = useI18n()
 
 <style scoped>
 .hero-section {
+  position: relative;
   min-height: calc(100vh - 50px);
   display: flex;
   align-items: center;
-  background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.25), transparent 45%),
-    radial-gradient(circle at bottom left, rgba(34, 211, 238, 0.15), transparent 40%);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(15, 23, 42, 0.78) 0%,
+    rgba(15, 23, 42, 0.5) 35%,
+    rgba(15, 23, 42, 0.2) 65%,
+    rgba(15, 23, 42, 0.05) 100%
+  );
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 720px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.35);
+  backdrop-filter: blur(6px);
 }
 
 .hero-bio {

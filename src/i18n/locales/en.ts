@@ -64,11 +64,12 @@ const en: LocaleMessages = {
     origin: 'From Cape Verde',
     residence: 'Living in Brazil',
     languages: 'Portuguese (fluent) · English (basic)',
+    education: 'Graduate in Systems Analysis and Development — Estácio',
     age: '{age} years old',
     experience: '{years} years in the field',
     bio: 'Cape Verdean developer, 25 years old, living in Brazil, with 4 years of experience building modern web solutions.',
     about:
-      'I am Paulo Ricardo, from Cape Verde and currently living in Brazil. I have 4 years of experience in technology, I am fluent in Portuguese and have basic English skills. I work with Laravel, JavaScript, Node.js, and databases like MySQL and PostgreSQL, always aiming to deliver clean code and solutions that solve real problems.',
+      'I am Paulo Ricardo, from Cape Verde and currently living in Brazil. I hold a degree in Systems Analysis and Development from Estácio, with 4 years of experience in technology. Fluent in Portuguese with basic English skills, I work with Laravel, JavaScript, Node.js, and databases like MySQL and PostgreSQL, always aiming to deliver clean code and solutions that solve real problems.',
   },
   language: {
     label: 'Language',

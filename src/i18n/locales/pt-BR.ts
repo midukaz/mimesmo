@@ -64,11 +64,12 @@ const ptBR: LocaleMessages = {
     origin: 'Natural de Cabo Verde',
     residence: 'Moro no Brasil',
     languages: 'Português (fluente) · Inglês (básico)',
+    education: 'Graduado em Análise e Desenvolvimento de Sistemas — Estácio',
     age: '{age} anos',
     experience: '{years} anos na área',
     bio: 'Desenvolvedor cabo-verdiano de 25 anos, morando no Brasil, com 4 anos de experiência criando soluções web modernas.',
     about:
-      'Sou Paulo Ricardo, natural de Cabo Verde e atualmente moro no Brasil. Tenho 4 anos de experiência na área de tecnologia, sou fluente em português e tenho conhecimentos básicos de inglês. Trabalho com Laravel, JavaScript, Node.js e bancos de dados como MySQL e PostgreSQL, sempre buscando entregar código limpo e soluções que resolvem problemas reais.',
+      'Sou Paulo Ricardo, natural de Cabo Verde e atualmente moro no Brasil. Sou graduado em Análise e Desenvolvimento de Sistemas pela Estácio, com 4 anos de experiência na área de tecnologia. Fluente em português e com conhecimentos básicos de inglês, trabalho com Laravel, JavaScript, Node.js e bancos de dados como MySQL e PostgreSQL, sempre buscando entregar código limpo e soluções que resolvem problemas reais.',
   },
   language: {
     label: 'Idioma',

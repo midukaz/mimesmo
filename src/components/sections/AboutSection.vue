@@ -35,6 +35,10 @@ const { t } = useI18n()
                 {{ t('portfolio.residence') }}
               </div>
               <div class="text-caption text-grey-6">
+                <q-icon name="school" size="xs" class="q-mr-xs" />
+                {{ t('portfolio.education') }}
+              </div>
+              <div class="text-caption text-grey-6">
                 <q-icon name="translate" size="xs" class="q-mr-xs" />
                 {{ t('portfolio.languages') }}
               </div>

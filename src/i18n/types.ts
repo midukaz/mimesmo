@@ -64,6 +64,7 @@ export interface LocaleMessages {
     origin: string
     residence: string
     languages: string
+    education: string
     age: string
     experience: string
     bio: string
