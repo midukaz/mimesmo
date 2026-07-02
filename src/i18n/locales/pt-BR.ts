@@ -24,17 +24,10 @@ const ptBR: LocaleMessages = {
     viewSite: 'Ver site',
     code: 'Código',
     items: {
-      taskApp: {
-        title: 'App de Tarefas',
-        description: 'Organizador pessoal com filtros, tags e persistência local.',
-      },
-      dashboard: {
-        title: 'Dashboard Analytics',
-        description: 'Painel com gráficos e métricas em tempo real para acompanhamento de KPIs.',
-      },
-      landing: {
-        title: 'Landing Page SaaS',
-        description: 'Página de conversão responsiva com formulário de contato integrado.',
+      tareFacil: {
+        title: 'TareFácil',
+        description:
+          'Organize suas tarefas, eventos e rotinas em um só lugar, com interface simples e prática.',
       },
     },
   },

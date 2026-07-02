@@ -1,4 +1,4 @@
-export type ProjectId = 'taskApp' | 'dashboard' | 'landing'
+export type ProjectId = 'tareFacil'
 export type SocialKey = 'github' | 'linkedin' | 'email'
 
 export interface ProjectMeta {
@@ -29,19 +29,9 @@ export const portfolio = {
   ],
   projects: [
     {
-      id: 'taskApp',
-      tags: ['Vue', 'Quasar', 'TypeScript'],
-      repo: 'https://github.com',
-    },
-    {
-      id: 'dashboard',
-      tags: ['Vue', 'Node.js', 'Chart.js'],
-      url: 'https://example.com',
-    },
-    {
-      id: 'landing',
-      tags: ['Quasar', 'Vite', 'CSS'],
-      url: 'https://example.com',
+      id: 'tareFacil',
+      tags: ['Laravel', 'JavaScript', 'Tailwind CSS', 'MySQL'],
+      url: 'https://demo-tarefacil.netlify.app/',
     },
   ] satisfies ProjectMeta[],
   socials: [

@@ -24,17 +24,10 @@ const en: LocaleMessages = {
     viewSite: 'View site',
     code: 'Code',
     items: {
-      taskApp: {
-        title: 'Task App',
-        description: 'Personal organizer with filters, tags, and local persistence.',
-      },
-      dashboard: {
-        title: 'Analytics Dashboard',
-        description: 'Panel with charts and real-time metrics for KPI tracking.',
-      },
-      landing: {
-        title: 'SaaS Landing Page',
-        description: 'Responsive conversion page with integrated contact form.',
+      tareFacil: {
+        title: 'TareFácil',
+        description:
+          'Organize your tasks, events, and routines in one place, with a simple and practical interface.',
       },
     },
   },

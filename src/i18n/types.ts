@@ -29,9 +29,7 @@ export interface LocaleMessages {
     viewSite: string
     code: string
     items: {
-      taskApp: ProjectTranslation
-      dashboard: ProjectTranslation
-      landing: ProjectTranslation
+      tareFacil: ProjectTranslation
     }
   }
   contact: {
